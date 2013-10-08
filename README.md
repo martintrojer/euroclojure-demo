@@ -1,6 +1,7 @@
 
 # Xively EuroClojure Demo
 
+```
 +---------+     +---------+     +---------+     +--------------+
 | Twitter | --> | Clojure | --> | Clojure | --> | Agennt       |
 |         |     | Heroku  |     | Xively  |     | Electric Imp |
@@ -12,6 +13,7 @@
 | Device       | --> | C       | --> |x|o|x| LEDs
 | Electric Imp |     | Adruino |     +-+-+-+
 +--------------+     +---------+
+```
 
 ## submodules
 
