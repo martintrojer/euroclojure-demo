@@ -29,16 +29,8 @@ Clojure app that counts tweets and sends data to Xively
 
 Electic Imp agent and device code
 
-* iOS
-
-iOS sourcers (used for the 'hammer-time' demo)
-
 ## submodules
 
 * Adafruit_Neopixel
 
 Arduino library for the LED array
-
-* hammer-time
-
-iOS HTML app to simulate 'funpark hammers' (not used in the demo, but still cool)

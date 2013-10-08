@@ -1,6 +1,3 @@
 [submodule "Adafruit_NeoPixel"]
 	path = Adafruit_NeoPixel
 	url = git@github.com:adafruit/Adafruit_NeoPixel.git
-[submodule "hammer-time"]
-	path = hammer-time
-	url = git@github.com:levent/hammer-time.git
