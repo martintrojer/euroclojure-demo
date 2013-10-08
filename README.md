@@ -3,36 +3,42 @@
 
 ```
 +---------+     +---------+     +---------+     +--------------+
-| Twitter | --> | Clojure | --> | Clojure | --> | Agennt       |
+| Twitter | --> | Clojure | --> | Clojure | --> | Agent        |
 |         |     | Heroku  |     | Xively  |     | Electric Imp |
 +---------+     +---------+     +---------+     +-------+------+
                                                         |
   ------------------------------------------------------+
   |
-+-+------------+     +---------+     +-+-+-+
-| Device       | --> | C       | --> |x|o|x| LEDs
-| Electric Imp |     | Adruino |     +-+-+-+
-+--------------+     +---------+
++-+------------+     +---------+      LEDs
+| Device       | --> | C       | --> +-+-+-+-+
+| Electric Imp |     | Arduino |     |x|o|x|x|
++--------------+     +---------+     +-+-+-+-+
 ```
-
-## submodules
-
-* Adafruit_Neopixel
-Arduino library for the LED array
-
-* hammer-time
-iOS HTML app to simulate 'funpark hammers' (not used in the demo, but still cool)
 
 ## folders
 
 * arduino
+
 The arduino sources (gets data from IMP and controls the LED)
 
 * heroku
+
 Clojure app that counts tweets and sends data to Xively
 
 * imp
+
 Electic Imp agent and device code
 
 * iOS
-iOS sourcers
+
+iOS sourcers (used for the 'hammer-time' demo)
+
+## submodules
+
+* Adafruit_Neopixel
+
+Arduino library for the LED array
+
+* hammer-time
+
+iOS HTML app to simulate 'funpark hammers' (not used in the demo, but still cool)
