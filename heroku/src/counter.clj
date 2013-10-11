@@ -96,10 +96,10 @@
   (reset! state {})
   (start-stream-watchdog))
 
-(defn reset-counters! []
+(defn reset-counters! [p m]
   (swap! state assoc
-         :plus 50
-         :minus 0))
+         :plus p
+         :minus m))
 
 ;; ====================================================
 
